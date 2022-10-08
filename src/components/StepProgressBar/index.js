@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Button } from "../Button";
 import classNames from 'classnames';
 
 import './style.scss';
@@ -30,8 +31,16 @@ export const StepProgressBar = () => {
             </ul>
 
             <div className="navigation">
-                <button type="button" onClick={() => prevStep()}>Prev</button>
-                <button type="button" onClick={() => nextStep()}>Next</button>
+                <Button
+                    text='Prev'
+                    onClick={() => prevStep()}
+                    disabled={step === 0}                        
+                />
+                <Button
+                    text='Next'
+                    onClick={() => nextStep()}
+                    disabled={step === maxStep}
+                />
             </div>
         </div>
     )

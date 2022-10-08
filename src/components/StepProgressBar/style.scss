@@ -20,7 +20,7 @@
         position: relative;
         text-align: center;
         text-transform: uppercase;
-        color: #7d7d7d;
+        color: #e1e1e1;
 
         &::before {
             width: 30px;
@@ -28,7 +28,7 @@
             content: counter(step);
             counter-increment: step;
             line-height: 30px;
-            border: 2px solid #7d7d7d;
+            border: 2px solid #e1e1e1;
             display: block;
             text-align: center;
             margin: 0 auto 10px auto;
@@ -41,7 +41,7 @@
             height: 2px;
             content: '';
             position: absolute;
-            background-color: #7d7d7d;
+            background-color: #e1e1e1;
             top: 15px;
             left: -50%;
             z-index: -1;
@@ -71,20 +71,4 @@
     justify-content: space-evenly;
     align-items: center;
     width: 400px;
-
-    & button {
-        background: #55b776;
-        color: #fff;
-
-        border: 0;
-        border-radius: .2rem;
-        padding: .5rem;
-
-        cursor: pointer;
-
-        &:hover {
-            opacity: .8;
-            transition: .5s;
-        }
-    }
 }

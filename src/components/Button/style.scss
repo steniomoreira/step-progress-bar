@@ -1,0 +1,24 @@
+.Button {
+    background: #55b776;
+    color: #fff;
+
+    border: 0;
+    border-radius: .2rem;
+    padding: .5rem;
+
+    cursor: pointer;
+
+    &:hover {
+        opacity: .9;
+        transition: .5s;
+    }        
+}
+
+.disabled {
+    opacity: .5;
+    cursor: not-allowed;
+
+    &:hover {
+        opacity: .5;
+    }
+}

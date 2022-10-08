@@ -30,8 +30,8 @@ export const StepProgressBar = () => {
             </ul>
 
             <div className="navigation">
-                <button type="button" onClick={() => prevStep()}>prev</button>
-                <button type="button" onClick={() => nextStep()}>next</button>
+                <button type="button" onClick={() => prevStep()}>Prev</button>
+                <button type="button" onClick={() => nextStep()}>Next</button>
             </div>
         </div>
     )

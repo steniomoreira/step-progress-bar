@@ -1,7 +1,21 @@
+:root {
+    --black: #040404;
+    --green: #55b776;
+
+    --grey: #787575;
+    --grey-300: #b9b9b9;
+    --grey-100: #e1e1e1;
+
+}
+
 .App {
     display: flex;
     justify-content: center;
     align-items: center;  
 
-    height: 100vh;
+    height: 100vh;   
+}
+
+body {
+    background: var(--black);
 }
